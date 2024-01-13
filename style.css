@@ -1,0 +1,26 @@
+body {
+  /* background-image: url(https://images.unsplash.com/photo-1599302592205-d7d683c83eea?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+ background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  
+}
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#clock {
+  font-family: monospace;
+  font-size: 6.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  backdrop-filter: blur(5px);
+  background-color: hsla(e, 0%, 100%, 0.1);
+  width: 100%;
+}
